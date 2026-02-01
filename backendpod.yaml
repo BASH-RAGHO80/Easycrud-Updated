@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-backend-pod
+spec:
+  containers:
+  - name: my-backend-container
+    image: siddheshsomvanshi27/backendimage:v1
+    ports:
+    - containerPort: 8080
